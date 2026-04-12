@@ -26,6 +26,6 @@ on Windows, written in Python.
 ## References
 - [Google ASHA spec](https://source.android.com/docs/core/connect/bluetooth/asha)
 - [asha_pipewire_sink](https://github.com/thewierdnut/asha_pipewire_sink)
-
-*Built with assistance from Claude (Anthropic) as an AI pair programmer.*
 - [Asymptotic BlueZ ASHA](https://asymptotic.io/blog/a-brimful-of-asha/)
+
+  *Built with assistance from Claude (Anthropic) as an AI pair programmer.*
