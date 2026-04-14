@@ -181,7 +181,7 @@ Please open an issue before starting significant work so efforts aren't duplicat
 
 ## Acknowledgements
 
-Built with assistance from [Claude](https://claude.ai) (Anthropic) as an AI pair programmer.
+Built with assistance from [Claude](https://claude.ai) (Anthropic).
 
 ---
 
