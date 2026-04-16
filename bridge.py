@@ -19,7 +19,7 @@ SAMPLE_RATE   = 16000
 FRAME_SAMPLES = 320
 
 async def find_zircon():
-    print("Scanning for Mishan Hearing aids...")
+    print("Scanning for hearing aids...")
     while True:
         devices = await BleakScanner.discover(
             timeout=5.0,
@@ -30,7 +30,7 @@ async def find_zircon():
             if device.name and "Mishan" in device.name:
                 print(f"Found: {device.name} at {addr} (signal: {adv.rssi} dBm)")
                 return addr
-        print("Not found, retrying... (restart Zircon if stuck)")
+        print("Not found, retrying... (restart the aids if stuck)")
 
 async def main():
     address = await find_zircon()
