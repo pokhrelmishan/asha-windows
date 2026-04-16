@@ -26,7 +26,7 @@ FRAME_SAMPLES = int(SAMPLE_RATE * FRAME_MS / 1000)
 
 async def stream_audio():
     # Scan
-    print("Scanning for Zircon...")
+    print("Scanning for the hearing aids...")
     address = None
     while address is None:
         devices = await BleakScanner.discover(timeout=5.0, return_adv=True)
